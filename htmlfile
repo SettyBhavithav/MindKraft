@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gesture Multi-Game Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gesture Multi-Game Platform</h1>
+    <div id="gesture-hint">Move: Index finger | Pinch: Select/Action | Open palm: Menu | Fist: Exit</div>
+  </header>
+  <main>
+    <section id="menu">
+      <h2>Select a Game</h2>
+      <div id="game-list"></div>
+    </section>
+    <section id="instructions" class="hidden">
+      <h2 id="instructions-title"></h2>
+      <div id="instructions-body"></div>
+      <div class="button-row">
+        <button id="back-btn">Back</button>
+        <button id="start-btn">Start Game</button>
+      </div>
+    </section>
+    <section id="game-area" class="hidden"></section>
+    <section id="iq-score" class="hidden">
+      <h2>Your IQ Score</h2>
+      <div id="iq-value"></div>
+      <button id="iq-ok-btn">OK</button>
+    </section>
+  </main>
+  <footer>
+    <span>© 2024 Gesture Game Platform</span>
+  </footer>
+  <script src="games.js"></script>
+</body>
+</html>
