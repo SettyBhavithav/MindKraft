@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #23243a 0%, #3a3d5c 100%);
+  color: #fff;
+  min-height: 100vh;
+}
+header {
+  background: #0a6cff;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+header h1 {
+  margin: 0;
+  font-size: 2.2em;
+  letter-spacing: 2px;
+}
+#gesture-hint {
+  font-size: 1em;
+  color: #ffe066;
+  margin-top: 6px;
+}
+main {
+  max-width: 900px;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  background: rgba(34,36,52,0.97);
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+}
+#menu h2, #instructions h2, #iq-score h2 {
+  margin-top: 0;
+  font-size: 1.7em;
+  color: #ffe066;
+}
+#game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+  margin-top: 32px;
+}
+.game-card {
+  background: #22243a;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  padding: 24px 36px;
+  min-width: 180px;
+  text-align: center;
+  transition: transform 0.15s;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.game-card.selected, .game-card:hover {
+  border: 2px solid #ffe066;
+  transform: translateY(-4px) scale(1.04);
+}
+.game-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffe066;
+}
+.game-desc {
+  font-size: 0.98em;
+  color: #b5b8d3;
+  margin-bottom: 10px;
+}
+.level-badge {
+  display: inline-block;
+  background: #0a6cff;
+  color: #fff;
+  font-size: 0.95em;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+.button-row {
+  margin-top: 30px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+button {
+  background: #0a6cff;
+  color: #fff;
+  border: none;
+  padding: 13px 36px;
+  border-radius: 8px;
+  font-size: 1.08em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+button:hover, button:focus {
+  background: #ffe066;
+  color: #23243a;
+  outline: none;
+}
+.hidden {
+  display: none !important;
+}
+#game-area {
+  min-height: 350px;
+  margin-top: 30px;
+  text-align: center;
+}
+#iq-score {
+  text-align: center;
+  margin-top: 40px;
+}
+#iq-value {
+  font-size: 2.8em;
+  color: #ffe066;
+  margin: 30px 0;
+}
+footer {
+  text-align: center;
+  padding: 18px 0 10px 0;
+  color: #b5b8d3;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+@media (max-width: 700px) {
+  main { padding: 10px; }
+  .game-card { min-width: 120px; padding: 15px 10px; }
+  button { padding: 10px 18px; font-size: 1em; }
+}
