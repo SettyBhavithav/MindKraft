@@ -62,3 +62,5 @@
 # Fixed Pygame window focus loss handling on desktop OS
 
 # Reviewed project dependencies for security vulnerabilities
+
+# OpenCV video capture stream configured for webcam input processing
