@@ -60,3 +60,5 @@
 # Verified memory release after terminating MediaPipe solution instance
 
 # Configured author metadata and license file in project root
+
+# Loaded MediaPipe hands landmark detection model for 3D hand tracking
