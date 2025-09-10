@@ -1,0 +1,139 @@
+// games.js
+
+const GAMES = [
+  {
+    id: "maze",
+    title: "Maze",
+    desc: "Navigate to the goal! Includes AI bot and hint system.",
+    levels: 25,
+    instructions: [
+      "Goal: Reach the purple goal cell.",
+      "Move: Pinch gesture to move to adjacent open cell.",
+      "Hint: Hold open palm (2s) to show shortest path.",
+      "AI Bot: Hold fist (2s) to race against AI.",
+      "Back: Open palm (2s). Exit: Fist (2s)."
+    ]
+  },
+  {
+    id: "shooter",
+    title: "Shooter",
+    desc: "Shoot enemies, dodge obstacles, and collect power-ups.",
+    levels: 25,
+    instructions: [
+      "Goal: Shoot all enemies to clear each level.",
+      "Move: Move hand to control player.",
+      "Shoot: Pinch gesture to fire.",
+      "Back: Open palm (2s). Exit: Fist (2s)."
+    ]
+  },
+  {
+    id: "pong",
+    title: "Pong",
+    desc: "Classic Pong with gesture paddle and AI opponent.",
+    levels: 25,
+    instructions: [
+      "Goal: Keep the ball in play and beat the AI.",
+      "Move: Move hand to control paddle.",
+      "Back: Open palm (2s). Exit: Fist (2s)."
+    ]
+  },
+  {
+    id: "breakout",
+    title: "Breakout",
+    desc: "Break all blocks with your ball. Power-ups included.",
+    levels: 25,
+    instructions: [
+      "Goal: Break all blocks to advance.",
+      "Move: Move hand to control paddle.",
+      "Back: Open palm (2s). Exit: Fist (2s)."
+    ]
+  },
+  {
+    id: "fruit",
+    title: "Fruit Catcher",
+    desc: "Catch falling fruits. Fast reflexes required!",
+    levels: 25,
+    instructions: [
+      "Goal: Catch as many fruits as you can.",
+      "Move: Move hand to control basket.",
+      "Catch: Pinch gesture to catch.",
+      "Back: Open palm (2s). Exit: Fist (2s)."
+    ]
+  }
+];
+
+let selectedGame = null;
+
+// Populate menu
+function renderMenu() {
+  const list = document.getElementById('game-list');
+  list.innerHTML = '';
+  GAMES.forEach((game, idx) => {
+    const card = document.createElement('div');
+    card.className = 'game-card';
+    card.tabIndex = 0;
+    card.innerHTML = `
+      <div class="level-badge">Levels: ${game.levels}</div>
+      <div class="game-title">${game.title}</div>
+      <div class="game-desc">${game.desc}</div>
+    `;
+    card.onclick = () => showInstructions(idx);
+    card.onfocus = () => card.classList.add('selected');
+    card.onblur = () => card.classList.remove('selected');
+    list.appendChild(card);
+  });
+}
+
+function showInstructions(idx) {
+  selectedGame = GAMES[idx];
+  document.getElementById('menu').classList.add('hidden');
+  document.getElementById('instructions').classList.remove('hidden');
+  document.getElementById('instructions-title').textContent = selectedGame.title + " Instructions";
+  document.getElementById('instructions-body').innerHTML = selectedGame.instructions.map(line => `<div>${line}</div>`).join('');
+}
+
+function backToMenu() {
+  document.getElementById('instructions').classList.add('hidden');
+  document.getElementById('game-area').classList.add('hidden');
+  document.getElementById('iq-score').classList.add('hidden');
+  document.getElementById('menu').classList.remove('hidden');
+}
+
+// Placeholder: Show a "Level Select" and "Game not implemented" message
+function startGame() {
+  document.getElementById('instructions').classList.add('hidden');
+  document.getElementById('game-area').classList.remove('hidden');
+  const area = document.getElementById('game-area');
+  area.innerHTML = `
+    <h2>${selectedGame.title} - Level Select</h2>
+    <div class="button-row" id="level-row"></div>
+    <div id="game-message" style="margin-top:40px;color:#ffe066;font-size:1.3em;"></div>
+  `;
+  const row = document.getElementById('level-row');
+  for (let i = 1; i <= selectedGame.levels; ++i) {
+    const btn = document.createElement('button');
+    btn.textContent = "Level " + i;
+    btn.onclick = () => playGameLevel(i);
+    row.appendChild(btn);
+  }
+}
+
+function playGameLevel(level) {
+  const msg = document.getElementById('game-message');
+  msg.innerHTML = `This is a placeholder for <b>${selectedGame.title} Level ${level}</b>.<br>
+    (You can implement the full game logic here, including gesture controls, AI, and hint systems.)<br><br>
+    <button onclick="showIQScore(${level * 4 + 90})">Simulate Win & Show IQ</button>`;
+}
+
+function showIQScore(iq) {
+  document.getElementById('game-area').classList.add('hidden');
+  document.getElementById('iq-score').classList.remove('hidden');
+  document.getElementById('iq-value').textContent = iq;
+}
+
+window.onload = function() {
+  renderMenu();
+  document.getElementById('back-btn').onclick = backToMenu;
+  document.getElementById('start-btn').onclick = startGame;
+  document.getElementById('iq-ok-btn').onclick = backToMenu;
+};
