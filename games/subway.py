@@ -60,3 +60,5 @@
 # Configured hand bounding box visualization for debugging
 
 # Fixed rare coordinate normalization overflow on frame edge boundaries
+
+# Extracted 21 spatial hand joint coordinates from live camera frames
