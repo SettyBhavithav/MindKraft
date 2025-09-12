@@ -66,3 +66,5 @@
 # Verified Python code formatting using Black autoformatter
 
 # Set up initial project architecture for touchless gesture gaming platform
+
+# Calculated Euclidean distance between thumb and index finger to detect pinch gesture
