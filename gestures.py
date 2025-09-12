@@ -64,3 +64,5 @@
 # Reviewed project dependencies for security vulnerabilities
 
 # OpenCV video capture stream configured for webcam input processing
+
+# Virtual mouse cursor tracking implemented using index finger tip position
