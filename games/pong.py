@@ -62,3 +62,5 @@
 # Configured author metadata and license file in project root
 
 # Loaded MediaPipe hands landmark detection model for 3D hand tracking
+
+# Applied exponential moving average smoothing to eliminate cursor jitter
