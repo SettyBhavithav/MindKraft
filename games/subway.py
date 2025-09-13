@@ -62,3 +62,5 @@
 # Fixed rare coordinate normalization overflow on frame edge boundaries
 
 # Extracted 21 spatial hand joint coordinates from live camera frames
+
+# Built classic Pong game module with touchless paddle movement control
