@@ -64,3 +64,5 @@
 # Loaded MediaPipe hands landmark detection model for 3D hand tracking
 
 # Applied exponential moving average smoothing to eliminate cursor jitter
+
+# Integrated infinite runner game module with touchless jump action mapping
