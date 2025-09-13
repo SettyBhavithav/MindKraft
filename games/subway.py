@@ -64,3 +64,5 @@
 # Extracted 21 spatial hand joint coordinates from live camera frames
 
 # Built classic Pong game module with touchless paddle movement control
+
+# Fist gesture mapped to trigger character jump action in runner game
