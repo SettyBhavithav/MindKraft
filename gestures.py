@@ -66,3 +66,5 @@
 # OpenCV video capture stream configured for webcam input processing
 
 # Virtual mouse cursor tracking implemented using index finger tip position
+
+# Gesture recognition classifier created for fist grab and open palm states
