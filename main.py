@@ -68,3 +68,5 @@
 # Set up initial project architecture for touchless gesture gaming platform
 
 # Calculated Euclidean distance between thumb and index finger to detect pinch gesture
+
+# Mapped vertical Y coordinates of hand position to game paddle motion
