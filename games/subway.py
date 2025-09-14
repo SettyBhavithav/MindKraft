@@ -66,3 +66,5 @@
 # Built classic Pong game module with touchless paddle movement control
 
 # Fist gesture mapped to trigger character jump action in runner game
+
+# Handled video frame drop errors gracefully when hand leaves camera view
