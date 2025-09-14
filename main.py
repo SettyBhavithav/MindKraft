@@ -70,3 +70,5 @@
 # Calculated Euclidean distance between thumb and index finger to detect pinch gesture
 
 # Mapped vertical Y coordinates of hand position to game paddle motion
+
+# Added dark theme HUD display showing real-time FPS and active gesture label
