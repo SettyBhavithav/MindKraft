@@ -66,3 +66,5 @@
 # Applied exponential moving average smoothing to eliminate cursor jitter
 
 # Integrated infinite runner game module with touchless jump action mapping
+
+# Hand gesture calibration step added for supporting custom hand sizes
