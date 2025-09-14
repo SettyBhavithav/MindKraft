@@ -70,3 +70,5 @@
 # Gesture recognition classifier created for fist grab and open palm states
 
 # Sound effect triggers configured on game score and obstacle collision events
+
+# Created CLI runner script to launch touchless gaming arcade menu
