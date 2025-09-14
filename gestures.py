@@ -68,3 +68,5 @@
 # Virtual mouse cursor tracking implemented using index finger tip position
 
 # Gesture recognition classifier created for fist grab and open palm states
+
+# Sound effect triggers configured on game score and obstacle collision events
