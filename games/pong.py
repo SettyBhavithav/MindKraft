@@ -68,3 +68,5 @@
 # Integrated infinite runner game module with touchless jump action mapping
 
 # Hand gesture calibration step added for supporting custom hand sizes
+
+# Updated project dependencies in requirements.txt with OpenCV and MediaPipe
