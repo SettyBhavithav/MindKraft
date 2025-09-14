@@ -72,3 +72,5 @@
 # Mapped vertical Y coordinates of hand position to game paddle motion
 
 # Added dark theme HUD display showing real-time FPS and active gesture label
+
+# Saved landmark detection visualization overlay output to screenshots directory
