@@ -68,3 +68,5 @@
 # Fist gesture mapped to trigger character jump action in runner game
 
 # Handled video frame drop errors gracefully when hand leaves camera view
+
+# Fixed gesture latency jitter during rapid hand movement tracking
