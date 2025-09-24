@@ -70,3 +70,5 @@
 # Hand gesture calibration step added for supporting custom hand sizes
 
 # Updated project dependencies in requirements.txt with OpenCV and MediaPipe
+
+# Applied anti-aliasing rendering for smoother game graphics and HUD elements
