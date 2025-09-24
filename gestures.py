@@ -72,3 +72,5 @@
 # Sound effect triggers configured on game score and obstacle collision events
 
 # Created CLI runner script to launch touchless gaming arcade menu
+
+# Cleaned up temporary video capture cache files from local storage
