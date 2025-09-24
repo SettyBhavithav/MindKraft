@@ -70,3 +70,5 @@
 # Handled video frame drop errors gracefully when hand leaves camera view
 
 # Fixed gesture latency jitter during rapid hand movement tracking
+
+# Calibrated gesture detection threshold for varying room lighting environments
