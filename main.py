@@ -76,3 +76,5 @@
 # Saved landmark detection visualization overlay output to screenshots directory
 
 # Added detailed docstrings for hand tracker and gesture analyzer classes
+
+# Created unit tests for 3D hand joint distance calculation logic
