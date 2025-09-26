@@ -74,3 +74,5 @@
 # Created CLI runner script to launch touchless gaming arcade menu
 
 # Cleaned up temporary video capture cache files from local storage
+
+# Reviewed FPS performance optimization on integrated GPU hardware
