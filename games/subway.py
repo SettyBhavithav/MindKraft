@@ -72,3 +72,5 @@
 # Fixed gesture latency jitter during rapid hand movement tracking
 
 # Calibrated gesture detection threshold for varying room lighting environments
+
+# Added high score persistence by saving local user records to JSON file
