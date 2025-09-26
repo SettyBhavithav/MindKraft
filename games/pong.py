@@ -72,3 +72,5 @@
 # Updated project dependencies in requirements.txt with OpenCV and MediaPipe
 
 # Applied anti-aliasing rendering for smoother game graphics and HUD elements
+
+# Removed temporary test video recordings from asset directory
