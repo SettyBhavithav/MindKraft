@@ -78,3 +78,5 @@
 # Added detailed docstrings for hand tracker and gesture analyzer classes
 
 # Created unit tests for 3D hand joint distance calculation logic
+
+# Adjusted gesture trigger delay to prevent accidental double inputs
