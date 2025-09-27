@@ -76,3 +76,5 @@
 # Cleaned up temporary video capture cache files from local storage
 
 # Reviewed FPS performance optimization on integrated GPU hardware
+
+# Configured full screen toggle key for Pygame arcade window
