@@ -78,3 +78,5 @@
 # Reviewed FPS performance optimization on integrated GPU hardware
 
 # Configured full screen toggle key for Pygame arcade window
+
+# Fixed wrist landmark origin shift bug when hand is tilted sideways
