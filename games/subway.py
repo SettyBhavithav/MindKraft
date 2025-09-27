@@ -74,3 +74,5 @@
 # Calibrated gesture detection threshold for varying room lighting environments
 
 # Added high score persistence by saving local user records to JSON file
+
+# Updated Pygame event loop to handle window close signals gracefully
