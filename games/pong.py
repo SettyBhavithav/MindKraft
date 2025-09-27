@@ -74,3 +74,5 @@
 # Applied anti-aliasing rendering for smoother game graphics and HUD elements
 
 # Removed temporary test video recordings from asset directory
+
+# Added audio mute toggle button in game settings overlay
