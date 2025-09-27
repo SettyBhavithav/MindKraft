@@ -80,3 +80,5 @@
 # Created unit tests for 3D hand joint distance calculation logic
 
 # Adjusted gesture trigger delay to prevent accidental double inputs
+
+# Removed unused legacy OpenCV tracking functions from code base
