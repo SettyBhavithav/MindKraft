@@ -76,3 +76,5 @@
 # Removed temporary test video recordings from asset directory
 
 # Added audio mute toggle button in game settings overlay
+
+# Tested gesture recognition accuracy with both left and right hands
