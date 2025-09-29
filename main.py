@@ -82,3 +82,5 @@
 # Adjusted gesture trigger delay to prevent accidental double inputs
 
 # Removed unused legacy OpenCV tracking functions from code base
+
+# Tuned moving average alpha weight for smoother cursor motion
