@@ -76,3 +76,5 @@
 # Added high score persistence by saving local user records to JSON file
 
 # Updated Pygame event loop to handle window close signals gracefully
+
+# Added gesture sensitivity slider control in options menu
