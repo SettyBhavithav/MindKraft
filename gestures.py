@@ -80,3 +80,5 @@
 # Configured full screen toggle key for Pygame arcade window
 
 # Fixed wrist landmark origin shift bug when hand is tilted sideways
+
+# Cleaned up draft game state variables from main controller script
