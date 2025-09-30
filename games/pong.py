@@ -78,3 +78,5 @@
 # Added audio mute toggle button in game settings overlay
 
 # Tested gesture recognition accuracy with both left and right hands
+
+# Verified Pygame score counter increment on successful target hits
