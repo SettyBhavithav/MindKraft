@@ -78,3 +78,5 @@
 # Updated Pygame event loop to handle window close signals gracefully
 
 # Added gesture sensitivity slider control in options menu
+
+# Added pause game menu triggered by peace sign gesture
