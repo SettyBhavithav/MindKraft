@@ -82,3 +82,5 @@
 # Fixed wrist landmark origin shift bug when hand is tilted sideways
 
 # Cleaned up draft game state variables from main controller script
+
+# Fixed sound buffer delay in Pygame mixer initialization
