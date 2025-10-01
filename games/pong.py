@@ -80,3 +80,5 @@
 # Tested gesture recognition accuracy with both left and right hands
 
 # Verified Pygame score counter increment on successful target hits
+
+# Monitored CPU usage during multi-game arcade loop execution
