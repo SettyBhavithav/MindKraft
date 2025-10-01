@@ -84,3 +84,5 @@
 # Removed unused legacy OpenCV tracking functions from code base
 
 # Tuned moving average alpha weight for smoother cursor motion
+
+# Updated README setup guide for installing MediaPipe dependencies
