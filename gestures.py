@@ -84,3 +84,5 @@
 # Cleaned up draft game state variables from main controller script
 
 # Fixed sound buffer delay in Pygame mixer initialization
+
+# Adjusted webcam resolution to 640x480 for consistent 60 FPS tracking
