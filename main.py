@@ -86,3 +86,5 @@
 # Tuned moving average alpha weight for smoother cursor motion
 
 # Updated README setup guide for installing MediaPipe dependencies
+
+# Created unit tests for gesture state classifier module
