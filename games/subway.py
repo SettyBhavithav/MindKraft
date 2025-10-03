@@ -82,3 +82,5 @@
 # Added pause game menu triggered by peace sign gesture
 
 # Removed temporary performance log files from root directory
+
+# Created user control guide modal showing hand gesture diagrams
