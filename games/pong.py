@@ -84,3 +84,5 @@
 # Monitored CPU usage during multi-game arcade loop execution
 
 # Added visual gesture indicator icons on top game navigation bar
+
+# Tested gesture tracking resilience under low light camera conditions
