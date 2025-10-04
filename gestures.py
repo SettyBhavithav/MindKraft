@@ -86,3 +86,5 @@
 # Fixed sound buffer delay in Pygame mixer initialization
 
 # Adjusted webcam resolution to 640x480 for consistent 60 FPS tracking
+
+# Cleaned up console print statements in landmark processing loop
