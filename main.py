@@ -88,3 +88,5 @@
 # Updated README setup guide for installing MediaPipe dependencies
 
 # Created unit tests for gesture state classifier module
+
+# Aligned dark mode UI color scheme across Pygame overlay elements
