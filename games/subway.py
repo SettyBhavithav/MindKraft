@@ -84,3 +84,5 @@
 # Removed temporary performance log files from root directory
 
 # Created user control guide modal showing hand gesture diagrams
+
+# Added fallback keyboard controls when webcam is disabled by user
