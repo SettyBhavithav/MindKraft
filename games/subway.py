@@ -86,3 +86,5 @@
 # Created user control guide modal showing hand gesture diagrams
 
 # Added fallback keyboard controls when webcam is disabled by user
+
+# Configured hand bounding box visualization for real-time debugging
