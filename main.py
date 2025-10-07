@@ -90,3 +90,5 @@
 # Created unit tests for gesture state classifier module
 
 # Aligned dark mode UI color scheme across Pygame overlay elements
+
+# Updated package setup script for seamless cross-platform execution
