@@ -86,3 +86,5 @@
 # Added visual gesture indicator icons on top game navigation bar
 
 # Tested gesture tracking resilience under low light camera conditions
+
+# Verified memory release after terminating MediaPipe solution instance
