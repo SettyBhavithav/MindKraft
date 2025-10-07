@@ -88,3 +88,5 @@
 # Adjusted webcam resolution to 640x480 for consistent 60 FPS tracking
 
 # Cleaned up console print statements in landmark processing loop
+
+# Fixed Pygame window focus loss handling on desktop OS environments
