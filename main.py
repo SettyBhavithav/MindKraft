@@ -92,3 +92,5 @@
 # Aligned dark mode UI color scheme across Pygame overlay elements
 
 # Updated package setup script for seamless cross-platform execution
+
+# Removed temporary build artifacts before final code packaging
