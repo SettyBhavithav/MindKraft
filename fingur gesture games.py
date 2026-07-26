@@ -859,3 +859,5 @@ if __name__ == "__main__":
 
 # Process hand landmark coordinates from MediaPipe stream
 # Progress [2025-09-16 #4]: Applied code update
+
+# Rechecking MediaPipe hand gesture tracking and Pygame arcade controls.
